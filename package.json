@@ -1,0 +1,21 @@
+{
+  "name": "express-learning-app",
+  "version": "1.0.0",
+  "description": "A beginner Express.js app covering routing, middleware, cookies, file upload, GET & POST requests",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["express", "nodejs", "routing", "middleware", "cookies", "file-upload"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
